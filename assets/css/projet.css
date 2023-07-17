@@ -1,0 +1,182 @@
+/* @font-face{
+    font-family: 'Poppins';
+    src: url(../fonts/Poppins/Poppins-Light.ttf),
+        url(../fonts/Poppins/Poppins-ExtraLight.ttf);
+} */
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#projects-section{
+    margin-top: 255px;
+}
+
+#projects-section h1{
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 64px;
+    margin-left: 192px;
+    font-weight: 600;
+}
+
+.project{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 70%;
+    column-gap: 220px;
+    row-gap: 96px;
+    margin: auto;
+    padding-top: 93px;
+    padding-bottom: 175px;
+}
+
+.project-container{
+    border-radius: 50px 0px;
+    background: #0F1624;
+    box-shadow: 0px 0px 12px 0px #FFF;
+    padding: 25px;
+}
+
+.project-container img{
+    width: 100%;
+}
+
+.project-container h4{
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 36px;
+    font-weight: 600;
+    margin: 25px 0;
+    text-align: center;
+}
+
+.project-container p{
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 25px;
+}
+
+.project-container a{
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.button-look{
+    border-radius: 83px;
+    background: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
+    padding: 15px 52px;
+    width: fit-content;
+    margin-top: 25px;
+}
+
+.project-border{
+    padding: 3px;
+    background: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
+    width: 60%;
+    margin: auto;
+}
+
+@media (max-width: 1440px) {
+    .project{
+        column-gap: 150px;
+        row-gap: 76px;
+    }
+
+    #projects-section h1{
+        font-size: 46px;
+    }
+
+    .project-container h4{
+        font-size: 26px;
+    }
+
+    .project-container p{
+        font-size: 20px;
+    }
+
+    .project-container a{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 1366px) {
+    #projects-section h1{
+        font-size: 36px;
+    }
+
+    .project-container h4{
+        font-size: 22px;
+    }
+
+    .project-container p{
+        font-size: 16px;
+    }
+
+    .project-container a{
+        font-size: 14px;
+    }
+
+    .project{
+        padding-bottom: 125px;
+    }
+}
+
+@media (max-width:991px) {
+    .project {
+        gap: 40px 90px;
+    }    
+
+    #projects-section h1{
+        margin-left: 92px;
+    }
+}
+
+@media (max-width:768px) {
+    .project{
+        width: 80%;
+        padding-top: 50px;
+        padding-bottom: 75px;
+        gap: 40px 50px;
+    }
+
+    .project-container h4 {
+        font-size: 16px;
+    }
+
+    .project-container p {
+        font-size: 12px;
+    }
+
+    .project-container a {
+        font-size: 10px;
+    }
+
+    #projects-section {
+        margin-top: 155px;
+    }
+
+    #projects-section h1{
+        margin-left: 60px;
+    }
+
+    #projects-section h1 {
+        font-size: 28px;
+    }
+}
+
+@media (max-width:576px) {
+    .project{
+        grid-template-columns: 1fr;
+    }
+
+    #projects-section h1{
+        margin-left: 30px;
+    }
+}

@@ -1,0 +1,306 @@
+/* @font-face{
+    font-family: 'Poppins';
+    src: url(../fonts/Poppins/Poppins-Light.ttf),
+        url(../fonts/Poppins/Poppins-ExtraLight.ttf);
+} */
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #0F1624;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    background: #0F1624;
+}
+
+header nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 46px 54px 46px 131px;
+    width: 100%;
+}
+
+.logo-menu{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+    gap: 13px;
+}
+
+.logo img{
+    width: 48px;
+    height: 48px;
+}
+
+.logo h4{
+    font-size: 30px;
+    color: #FFF;
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+
+.menu{
+    display: flex;
+    width: 62%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Poppins';
+}
+
+.menu a:hover{
+    text-decoration: underline;
+}
+
+.social-media{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.social-media img{
+    width: 32px;
+    height: 32px;
+}
+
+.download-cv{
+    background: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
+    padding: 10px 20px;
+    border-radius: 40px;
+}
+
+.download-cv:hover{
+    background: linear-gradient(270deg, #3f6369 0%, #404874 66.67%, #534169 100%);
+    text-decoration: none!important;
+}
+/*  */
+main{
+    padding-top: 294px;
+}
+
+#home {
+    display: flex;
+    padding-left: 192px;
+}
+
+.home-text h1{
+    color: #FFF;
+    font-size: 64px;
+    font-family: 'Poppins';
+}
+
+.home-text p{
+    font-size: 36px;
+    color: #BCBCBC;
+    margin-left: 4%;
+    font-style: normal;
+    font-weight: 600;
+    width: 55%;
+    font-family: 'Poppins';
+    margin-bottom: 93px;
+
+}
+
+.home-text a{
+    text-decoration: none;
+    padding: 19px 63px;
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 28px;
+    border-radius: 83px;
+    background: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
+    font-weight: 600;
+    margin-left: 7%;
+}
+
+.home-image{
+    position: absolute;
+    right: 0;
+    z-index: -1;
+}
+
+@media (max-width:1440px) {
+    header nav{
+        padding: 30px 42px 30px 85px;
+    }
+
+    .menu {
+        gap: 48px;
+    }
+
+    .menu a{
+        font-size: 25px;
+    }
+
+    .logo-menu{
+        gap: 110px;
+    }
+
+    .logo h4{
+        font-size: 25px;
+    }
+
+    .logo img {
+        width: 38px;
+        height: 38px;
+    }
+
+    .social-media img {
+        width: 22px;
+        height: 22px;
+    }
+
+    .social-media{
+        gap: 25px;
+    }
+
+    .home-text h1{
+        font-size: 46px;
+    }
+
+    .home-text p{
+        font-size: 26px;
+    }
+
+    main{
+        padding-top: 200px;
+    }
+
+    .home-text a{
+        font-size: 22px;
+    }
+
+
+}
+
+@media (max-width:1366px) {
+
+}
+
+@media (max-width:1116px) {
+    /* .logo h4 {
+        font-size: 22px;
+    }
+
+    .menu a{
+        font-size: 22px;
+    } */
+}
+
+@media (max-width:991px){
+    /* .logo-menu {
+        gap: 50px;
+    }
+
+    .menu {
+        gap: 10px;
+    }
+
+    header nav{
+        gap: 20px;
+    }
+
+    header nav{
+        padding: 30px;
+    }
+
+    #home{
+        padding-left: 92px;
+    }
+
+    .home-text p {
+        font-size: 18px;
+        margin-bottom: 63px;
+    }
+
+    .home-text a {
+        font-size: 16px;
+        padding: 12px 46px;
+    }
+
+    .home-text h1 {
+        font-size: 32px;
+    }
+
+    .home-image{
+        display: none;
+    } */
+}
+
+
+@media (max-width: 768px){
+    /* .logo-menu {
+        gap: 0;
+        flex-direction: column;
+    }
+
+    .home-text p{
+        width: 75%;
+    }
+
+    #home {
+        padding-left: 60px;
+    } */
+}
+
+
+@media (max-width: 576px){
+    /* header nav{
+        padding: 15px;
+        gap: 20px;
+    }
+
+    .logo h4 {
+        font-size: 16px;
+    }
+
+    .menu a{
+        font-size: 16px;
+    }
+
+    #home {
+        padding-left: 30px;
+    }
+
+    .home-text p {
+        width: 90%;
+    }
+
+    .social-media{
+        flex-direction: column;
+        gap: 4px;
+    }
+
+    .home-text h1 {
+        font-size: 22px;
+    }
+
+    .home-text p {
+        font-size: 14px;
+        margin-bottom: 40px;
+    }
+
+    .home-text a {
+        font-size: 12px;
+        padding: 8px 30px;
+    } */
+}

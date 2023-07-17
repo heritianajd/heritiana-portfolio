@@ -1,0 +1,247 @@
+@font-face{
+    font-family: 'Poppins';
+    src: url(../fonts/poppins/Poppins-Light.ttf),
+        url(../fonts/poppins/Poppins-ExtraLight.ttf);
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.technologie-skills{
+    width: 70%;
+    margin-left: 12%;
+    display: flex;
+    flex-direction: column;
+    gap: 55px;
+}
+
+#technologies{
+    padding-top: 175px;
+    padding-bottom: 154px;
+}
+
+#technologies h1{
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 64px;
+    font-weight: 600;  
+    margin-left: 137px;
+    margin-bottom: 133px;
+}
+
+.technolologie-level{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.technologie-skills-group h3{
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 36px;
+    font-weight: 600;   
+}
+
+.technologie-skills-group h4{
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.progress-bar {
+    background-color: #162950;
+    border-radius: 83px;
+    width: 100%;
+    height: 32px;
+}
+  
+.progress-bar::-webkit-progress-value {
+    background: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
+    border-radius: 83px;
+}
+  
+.progress-bar::-webkit-progress-bar {
+    background: #162950;
+    border-radius: 83px;
+}
+
+.technologie-add-skills{
+     margin-top: 132px;
+}
+
+.technologie-add-skills h2{
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 48px;
+    font-weight: 600;
+    max-width: 86%;
+    margin: auto;
+    margin-bottom: 82px;
+}
+
+.additional-skills {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 600;
+    width: 70%;
+    margin-left: 12%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.additional-skills ul{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+@media (max-width:1440px) {
+    #technologies h1{
+        font-size: 46px;
+    }
+
+    .technologie-skills-group h3{
+        font-size: 28px;
+    }
+
+    .technologie-skills-group h4{
+        font-size: 22px;
+    }
+
+    .progress-bar{
+        height: 25px;
+    }
+
+    .technologie-add-skills h2{
+        font-size: 42px;
+    }
+
+    .additional-skills{
+        font-size: 28px;
+    }
+}
+
+@media (max-width:1366px) {
+    .technologie-skills-group h4 {
+        font-size: 16px;
+    }
+
+    .technologie-skills-group h3 {
+        font-size: 24px;
+    }
+
+    #technologies h1 {
+        font-size: 40px;
+        margin-bottom: 100px;
+    }
+
+    .technologie-skills {
+        gap: 40px;
+    }
+
+    #technologies{
+        padding-top: 125px;
+    }
+
+    .progress-bar {
+        height: 20px;
+    }
+
+    .technologie-add-skills h2 {
+        font-size: 30px;
+        margin-bottom: 62px;
+    }
+
+    .additional-skills {
+        font-size: 22px;
+    }
+}
+
+@media (max-width:991px) {
+    #technologies h1{
+        margin-left: 92px;
+    }
+
+    .technologie-add-skills h2 {
+        font-size: 25px;
+    }
+
+    .additional-skills {
+        font-size: 18px;
+    }
+}
+
+@media (max-width:768px) {
+    .technologie-skills-group h3 {
+        font-size: 18px;
+    }
+
+    .technologie-skills-group h4 {
+        font-size: 12px;
+    }
+
+    #technologies h1 {
+        font-size: 32px;
+        margin-bottom: 60px;
+        margin-left: 60px;
+    }
+
+    .progress-bar {
+        height: 15px;
+    }
+
+    .additional-skills{
+        width: 80%;
+    }
+
+    .additional-skills ul {
+        gap: 10px;
+    }
+
+    .technologie-add-skills h2{
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width:576px) {
+    .technologie-skills{
+        width: 86%;
+        margin-left: 6%;
+        gap: 20px;
+    }
+
+    .progress-bar {
+        height: 12px;
+    }
+
+    .technologie-skills-group h3 {
+        font-size: 15px;
+    }
+
+    .technologie-skills-group h4 {
+        font-size: 10px;
+    }
+
+    #technologies h1{
+        margin-left: 30px;
+        font-size: 28px;
+    }
+
+    .technologie-add-skills h2 {
+        font-size: 18px;
+    }
+
+    .additional-skills {
+        font-size: 12px;
+    }
+
+    #technologies {
+        padding-top: 70px;
+        padding-bottom: 64px;
+    }
+}
