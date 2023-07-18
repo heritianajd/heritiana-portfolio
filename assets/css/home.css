@@ -1,8 +1,4 @@
-/* @font-face{
-    font-family: 'Poppins';
-    src: url(../fonts/Poppins/Poppins-Light.ttf),
-        url(../fonts/Poppins/Poppins-ExtraLight.ttf);
-} */
+
 
 * {
     margin: 0;
@@ -31,13 +27,14 @@ header nav{
 .logo-menu{
     display: flex;
     flex-direction: row;
-    width: 60%;
+    gap: 218px;
     justify-content: space-between;
 }
 
 .logo{
     display: flex;
     gap: 13px;
+    align-items: center;
 }
 
 .logo img{
@@ -54,7 +51,7 @@ header nav{
 
 .menu{
     display: flex;
-    width: 62%;
+    gap: 98px;
     align-items: center;
     justify-content: space-between;
 }
@@ -187,9 +184,8 @@ main{
 
     .home-text a{
         font-size: 22px;
+        padding: 12px 38px;
     }
-
-
 }
 
 @media (max-width:1366px) {
@@ -197,17 +193,17 @@ main{
 }
 
 @media (max-width:1116px) {
-    /* .logo h4 {
+    .logo h4 {
         font-size: 22px;
     }
 
     .menu a{
         font-size: 22px;
-    } */
+    }
 }
 
 @media (max-width:991px){
-    /* .logo-menu {
+    .logo-menu {
         gap: 50px;
     }
 
@@ -223,6 +219,10 @@ main{
         padding: 30px;
     }
 
+    .social-media {
+        gap: 15px;
+    }
+    
     #home{
         padding-left: 92px;
     }
@@ -243,12 +243,12 @@ main{
 
     .home-image{
         display: none;
-    } */
+    }
 }
 
 
 @media (max-width: 768px){
-    /* .logo-menu {
+    .logo-menu {
         gap: 0;
         flex-direction: column;
     }
@@ -259,12 +259,12 @@ main{
 
     #home {
         padding-left: 60px;
-    } */
+    }
 }
 
 
 @media (max-width: 576px){
-    /* header nav{
+    header nav{
         padding: 15px;
         gap: 20px;
     }
@@ -277,6 +277,11 @@ main{
         font-size: 16px;
     }
 
+    .social-media{
+        flex-direction: column;
+        gap: 4px;
+    }
+    
     #home {
         padding-left: 30px;
     }
@@ -302,5 +307,5 @@ main{
     .home-text a {
         font-size: 12px;
         padding: 8px 30px;
-    } */
+    }
 }
