@@ -278,8 +278,7 @@ main{
     }
 
     .social-media{
-        flex-direction: column;
-        gap: 4px;
+        display: none;
     }
     
     #home {
